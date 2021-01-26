@@ -5,7 +5,7 @@
 
 - 🔭 I’m currently working on [SquareCubed](https://github.com/codeup-capstone-3d-printing-club/capstone-3d-printing)
 
-- 🌱 I’m currently learning **C++, tensorflow**
+- 🌱 I’m currently learning **C++**
 
 - 👨‍💻 All of my projects are available at [https://github.com/biancareusch](https://github.com/biancareusch)
 
