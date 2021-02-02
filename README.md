@@ -3,7 +3,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=biancareusch&label=Profile%20views&color=0e75b6&style=flat" alt="biancareusch" /> </p>
 
-- 🔭 I’m currently working on [SquareCubed](https://github.com/codeup-capstone-3d-printing-club/capstone-3d-printing)
+- 🔭 I’m currently working on a Spring Framework 5 project.
 
 - 🌱 I’m currently learning **C++**
 
