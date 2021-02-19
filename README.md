@@ -5,7 +5,7 @@
 
 - 🔭 I’m currently working on a Spring Framework 5 project.
 
-- 🌱 I’m currently learning **C++** and **R**
+- 🌱 I’m currently learning **Golang** and **C++**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
