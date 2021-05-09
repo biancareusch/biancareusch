@@ -1,0 +1,245 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-image: url("Blank_Game_Background.PNG");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    text-align:center;
+
+
+}
+#img_container{
+    height: auto;
+    width: 100%;
+
+    overflow:auto;
+}
+
+
+#imagePete {
+    float:right;
+    margin:25px;
+
+
+}
+#imagePete2 {
+    float:left;
+    margin:25px;
+
+}
+
+#introBox {
+
+    text-align: center;
+    padding: 20px;
+    display: inline-block;
+}
+#introBox button{
+    margin-right:10px;
+    padding:15px;
+    border-radius: 10px;
+}
+
+#introBox img {
+    margin-bottom:20px;
+}
+#introScreenBack{
+    border-radius: 5px;
+}
+
+#rulesBox{
+
+    width: auto;
+    height: 50%;
+    border-bottom: 1px solid #6d6875;
+    border-left: 1px solid #6d6875;
+    overflow-y: scroll;
+    display: none;
+
+}
+
+#rulesContentBox{
+
+    text-align:left;
+    display: inline-block;
+
+
+}
+#rulesContentBox ul li{
+    font-size:20px;
+}
+
+#exitAppBox{
+    display: none;
+
+
+}
+#toIntro {
+    color: white;
+}
+
+
+#stickyBox {
+
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color: #6d6875;
+    padding-top:5px;
+    padding-bottom: 5px;
+
+}
+
+#gameBox {
+    width: 320px;
+    margin-top: 15px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    background-color: #AA3939;
+    border-radius: 5px;
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid {
+    margin-top:10px;
+    display: grid;
+    grid-template-columns: 80px 80px 80px 80px;
+    grid-template-rows: 80px 80px 80px 80px;
+    border: 1px solid #550000;
+}
+
+.grid button {
+    background-color: #cfcfcf;
+    color: #003333;
+    font-size: 24px;
+    font-weight: bold;
+    border: 1px solid #550000;
+    outline: none;
+    cursor: pointer;
+}
+
+.footer {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer button {
+    border: none;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    width: 80px;
+    background-color: #D4EE9F;
+    color: #003333;
+    outline: none;
+    cursor: pointer;
+}
+
+.footer button:hover {
+    color: #D4EE9F;
+    background-color: #003333;
+}
+
+.footer span {
+    flex: 1;
+    text-align: center;
+    font-size: 20px;
+    color: #D4EE9F;
+    font-weight: bold;
+    margin: auto 0;
+}
+
+.message {
+    color:#AA3939;
+    height: 80px;
+}
+
+@media screen and (max-width: 1400px) {
+    #gameBox{
+        width: 240px;
+        margin-top: 5px;
+        padding: 5px;
+    }
+    .grid{
+        grid-template-columns: 60px 60px 60px 60px;
+        grid-template-rows: 60px 60px 60px 60px;
+        margin-top:5px;
+
+    }
+
+    #move, #time {
+        font-size: 12px;
+    }
+    .grid button{
+        font-size: 18px;
+    }
+
+    #imagePete {
+
+        width: 150px;
+        height: auto;
+    }
+    #imagePete2 {
+
+        width: 150px;
+        height: auto;
+
+    }
+}
+@media screen and (max-width: 900px)  {
+    #gameBox{
+        width: 160px;
+        margin-top: 5px;
+        padding: 5px;
+    }
+    .grid{
+        grid-template-columns: 40px 40px 40px 40px;
+        grid-template-rows: 40px 40px 40px 40px;
+        margin-top:5px;
+
+    }
+
+    #move, #time {
+        font-size: 12px;
+    }
+    .grid button{
+        font-size: 18px;
+    }
+
+    #imagePete {
+
+        width: 90px;
+        height: auto;
+    }
+    #imagePete2 {
+
+        width: 90px;
+        height: auto;
+
+    }
+}
+
+
+
+/* "Start Game" Section *************END************ */
+
+
+
+
+
+
+
+
+
+
