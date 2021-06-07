@@ -3,9 +3,9 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=biancareusch&label=Profile%20views&color=0e75b6&style=flat" alt="biancareusch" /> </p>
 
-- 🔭 I’m currently working on a Spring Framework 5 project.
+<!-- - 🔭 I’m currently working on a Spring Framework 5 project. -->
 
-- 🌱 I’m currently learning **Golang** and **C++**
+- 🌱 I’m currently learning **Python**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
